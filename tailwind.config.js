@@ -6,13 +6,26 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        ravinaro: {
+          navy: '#0C2442',
+          deep: '#184B76',
+          royal: '#267AB3',
+          mist: '#C9D6DE',
+          electric: '#39C2F8',
+        },
+        neutral: {
+          base: '#FFFFFF',
+          cloud: '#F5F7FB',
+          border: '#E1E5EE',
+          text: '#0B1221',
+          meta: '#4A5565',
+        }
+      },
       fontFamily: {
+        heading: ['"Space Grotesk"', 'system-ui', 'sans-serif'],
+        body: ['Inter', 'system-ui', 'sans-serif'],
         sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
-        geist: ['Geist', 'system-ui', 'sans-serif'],
-        'geist-mono': ['Geist Mono', 'monospace'],
-        mona: ['Mona Sans', 'system-ui', 'sans-serif'],
-        'ibm-plex': ['IBM Plex Sans', 'system-ui', 'sans-serif'],
-        manrope: ['Manrope', 'system-ui', 'sans-serif'],
       },
       animation: {
         'fade-in': 'fadeIn 0.5s ease-in-out',
